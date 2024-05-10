@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 200px; 
+    background-color: #2E2E30; 
+    color: #fff; 
+    height: 100vh; 
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 10px;
+  }
+  
+  .sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 20px; /* Add padding to separate content from sidebar */
+  }
+  
+  /* Styling for the date */
+.current-date {
+  color: black;
+}

@@ -1,0 +1,47 @@
+/* Login.css */
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #333; 
+  }
+  
+  
+  
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="button"] {
+    background-color:black; 
+    color: white;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #272f38; 
+  }
+  
+  button[type="submit"] {
+    background-color: black; 
+    color: white;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #272f38; 
+  }
+  

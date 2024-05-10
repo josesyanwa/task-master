@@ -1,0 +1,19 @@
+/* calendar.css */
+
+.react-calendar {
+    width: 100%; 
+    height: 100%; 
+  }
+  
+  .react-calendar__tile {
+    height: 50px; 
+  }
+  
+  .react-calendar__navigation {
+    height: 50px; 
+  }
+
+  .react-calendar__navigation__label {
+    color: black !important;
+  }
+  

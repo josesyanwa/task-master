@@ -1,0 +1,81 @@
+.my-task {
+  padding: 20px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.my-task table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.my-task th,
+.my-task td {
+  border: 1px solid rgb(190, 185, 173);
+  padding: 8px;
+  font-weight: 500;
+}
+
+
+
+.my-task h2 {
+  margin-bottom: 10px;
+}
+
+.add-task-button {
+  margin-bottom: 10px;
+  background-color: RGB(66, 109, 198);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-task-button:hover {
+  background-color: #0056b3;
+}
+
+/* MyTask.css */
+
+/* Style for the comment button */
+.my-task button.comment-button {
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.my-task button.comment-button:hover {
+  background-color: #45a049;
+}
+
+.my-task button.comment-button:active {
+  background-color: #3e8e41;
+}
+
+.delete-button {
+  background-color: rgb(100, 3, 3);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Style for update button */
+.update-button {
+  background-color: rgb(163, 114, 6);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}

@@ -1,0 +1,85 @@
+
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .signup-modal {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .close-button {
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    background: black;
+    color: white; 
+    position: absolute; 
+    top: 10px; 
+    right: 10px; 
+  }
+  
+  
+  
+  .form-container {
+    background: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1; 
+  }
+  
+/* SignUp.css */
+.artist-label,
+.user-label {
+  color: white;
+}
+
+/* SignUp.css */
+
+/* Styling for labels */
+.artist-label,
+.user-label {
+  color: black;
+  display: block; 
+  margin-bottom: 10px; 
+}
+
+/* Styling for input fields */
+input {
+  display: block; 
+  margin-bottom: 10px; 
+}
+
+.signup-button {
+  color: white; 
+  background-color: black; 
+  border: none; 
+  padding: 7px 14x; 
+  font-size: 12px; 
+  cursor: pointer; 
+}
+
+.signup-button:hover {
+  background-color: #333; 
+}
+

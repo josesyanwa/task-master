@@ -1,0 +1,34 @@
+/* ProjectTask.css */
+
+.project-task-container {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.project-task-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+    background-color: white;
+}
+
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-item {
+    margin-bottom: 10px;
+}
+
+.task-item label {
+    font-weight: bold;
+}
+
+.task-item input[type="checkbox"] {
+    margin-right: 10px;
+}

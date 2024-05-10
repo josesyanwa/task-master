@@ -1,0 +1,59 @@
+/* Home.css */
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; 
+    background-color: #0D0D0D; 
+  }
+  
+  .description-container {
+    flex: 1;
+    text-align: left;
+    font-family: 'Montserrat-Regular', sans-serif; 
+    font-size: 20px; 
+  }
+  
+  h1 {
+    color: #ffffff; 
+  }
+  
+  p {
+    color: #a4a4a4; 
+  }
+  
+  .error-message {
+    color: #ff0000; 
+  }
+  
+  .buttons-container {
+    margin-top: 20px;
+  }
+  
+  .get-account-button {
+    background-color: #4b4b4b; 
+    color: #828282; 
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .learn-more-button {
+    background-color: #0d0d0d; 
+    color: #ececec; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .image-container {
+    flex: 1;
+    max-height: 90vh;
+    overflow: hidden;
+  }
+  
+  /* Add more styles as needed */
+  
