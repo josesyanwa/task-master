@@ -9,16 +9,7 @@ const NavBar = () => {
 
   const [isSignUpModalOpen, setIsSignUpModalOpen] = useState(false);
   const [isLoginModalOpen, setIsLoginModalOpen] = useState(false);
-  const [searchTerm, setSearchTerm] = useState('');
-
-  const handleInputChange = (event) => {
-    setSearchTerm(event.target.value);
-  };
-
-  const handleSearch = () => {
-    // Handle the search logic here, e.g., send a request to the server
-    console.log('Searching for:', searchTerm);
-  };
+  
 
   const openLoginModal = () => {
     setIsLoginModalOpen(true);
@@ -40,21 +31,11 @@ const NavBar = () => {
     <div className="navbar">
        <Link to="/">
          <div className="logo">
-          <img src="/Assets/logg.png" alt="Logo" />
+          <img src="/Assets/logg.jpeg" alt="Logo" />
         </div> 
       </Link> 
 
-      <div className="search-bar">
-        
-        <button onClick={handleSearch}>Q</button>
-        <input
-          type="text"
-          placeholder="Search..."
-          value={searchTerm}
-          onChange={handleInputChange}
-          className="search-input"
-        />
-      </div> 
+      
 
       <div className="nav-links">
         <Link to="/">Home</Link>

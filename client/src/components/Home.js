@@ -23,7 +23,7 @@ function Home({ userData }) {
   return (
     <div className="home-container">
       <div className="description-container">
-        <h1>Organise your tasks.</h1>
+        <h1>Djungle Task Planner</h1>
         <p>Do you have many unorganised tasks?You'll get the help that you want here.</p>
         <div className="buttons-container">
           <button className="get-account-button" onClick={handleGetAccountClick}>Get Free Account</button>
@@ -31,16 +31,16 @@ function Home({ userData }) {
         </div>
       </div>
       <div className="image-container">
-          (
+          
           <div>
              <img
-              src="./Assets/todo2.jpg"
+              src="./Assets/todo2.jpeg"
               alt="Home Page Img"
               style={{ maxWidth: '100%', height: 'auto' }}
             /> 
            
           </div>
-        )
+        
       </div> 
     </div>
   );
